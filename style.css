@@ -383,3 +383,28 @@ p {
   margin-top: 8px;
   background-color: var(--color-dark-white);
 }
+
+/* Contact */
+
+#contact {
+  background-color: var(--color-deep-purple);
+}
+
+.contact__title,
+.contact__email {
+  color: var(--color-white);
+}
+
+.contact__tile {
+  margin: 32px 0;
+}
+
+.contact__links {
+  font-size: var(--font-large);
+  margin: 24px 0;
+}
+
+.contact__links i:hover {
+  transform: scale(1.1);
+  transition: var(--animation-duration) ease-in;
+}
